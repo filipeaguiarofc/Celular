@@ -7,6 +7,7 @@ Audiobook gerado a partir do roteiro *CTN em Áudio — Roteiro de Audiobook (ar
 | Arquivo | Conteúdo |
 |---|---|
 | `CTN-volume-1-completo.mp3` | Volume inteiro em um arquivo, com marcadores de capítulo por faixa |
+| `CTN-volume-1-parte1.mp3` / `parte2.mp3` | Volume em duas partes (faixas 0–5 e 6–9), 48 kbps, com capítulos |
 | `faixa00.mp3` | Faixa zero — Abertura |
 | `faixa01.mp3` | Disposição Preliminar e Disposições Gerais (arts. 1º a 5º) |
 | `faixa02.mp3` | Competência Tributária — Disposições Gerais (arts. 6º a 8º) |
