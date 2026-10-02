@@ -7,7 +7,7 @@ Audiobook gerado a partir do roteiro *CTN em Áudio — Roteiro de Audiobook (ar
 | Arquivo | Conteúdo |
 |---|---|
 | `CTN-volume-1-completo.mp3` | Volume inteiro em um arquivo, com marcadores de capítulo por faixa |
-| `CTN-volume-1-parte1.mp3` / `parte2.mp3` | Volume em duas partes (faixas 0–5 e 6–9), 48 kbps, com capítulos |
+| `CTN-volume-1-parte1.mp3` a `parte3.mp3` | Volume em três partes (faixas 0–3, 4–5 e 6–9), 48 kbps, com capítulos |
 | `faixa00.mp3` | Faixa zero — Abertura |
 | `faixa01.mp3` | Disposição Preliminar e Disposições Gerais (arts. 1º a 5º) |
 | `faixa02.mp3` | Competência Tributária — Disposições Gerais (arts. 6º a 8º) |
@@ -19,18 +19,20 @@ Audiobook gerado a partir do roteiro *CTN em Áudio — Roteiro de Audiobook (ar
 | `faixa08.mp3` | Distribuições de Receitas Tributárias (arts. 83 a 95) |
 | `faixa09.mp3` | Legislação Tributária (arts. 96 a 100) e Encerramento |
 
-## Vozes e marcações do roteiro
+## Formato
 
-Vozes neurais Kokoro v1.0 (pt-BR), sintetizadas localmente com sherpa-onnx.
+Cada faixa abre com o tema musical e o anúncio do locutor. A **lei seca** é lida pelo locutor, com a redação
+idêntica à do roteiro. As **explicações doutrinárias** são um bate-papo de podcast entre dois apresentadores,
+Bia e Léo, sem citação de números de artigos (súmulas, temas e leis complementares são mantidos).
 
-| Marcação | Execução no áudio |
+| Elemento | Execução no áudio |
 |---|---|
-| `[TEXTO LEGAL]` | Voz masculina **pm_alex**, ritmo pausado (0,9×), tom neutro, pausa maior entre dispositivos |
-| `[PAUSA DOUTRINÁRIA]` | Voz feminina **pf_dora**, tom explicativo (comentário da professora) |
-| `[FIXAÇÃO]` | Voz **pf_dora**, um pouco mais ágil, em tom de resumo |
-| `[LOCUTOR]` | Voz **pm_santa** (narrador), também anuncia o título de cada faixa |
-| `[VINHETA]` | Trilha de 4 s (arpejo de sinos); a de encerramento tem 5 s |
+| Lei seca e `[LOCUTOR]` | Voz **pm_santa** (Kokoro v1.0, pt-BR), ritmo pausado |
+| `[PAUSA DOUTRINÁRIA]` | Diálogo Bia (Supertonic 3, voz feminina) e Léo (Supertonic 3, voz masculina), com fundo musical lo-fi |
+| `[FIXAÇÃO]` | "Revisão relâmpago" em perguntas e respostas, com trilha mais acelerada |
+| Pegadinhas e pontos de prova | Sinal sonoro de alerta antes da fala |
+| `[VINHETA]` | Tema de abertura e de encerramento; transições próprias para lei seca e podcast |
 | `[PAUSA CURTA]` | Silêncio de 2 s |
 
-As marcações entre colchetes não são lidas. As tabelas do roteiro foram convertidas em narração.
-As siglas (CTN, STF, ICMS, IBS...) são soletradas. Loudness normalizado em −16 LUFS, MP3 mono 64 kbps.
+As marcações entre colchetes não são lidas. Áudio a −16 LUFS; faixas e volume completo em MP3 64 kbps;
+partes em 48 kbps (abaixo de 30 MB cada).
